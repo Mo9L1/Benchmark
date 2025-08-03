@@ -4,7 +4,6 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 def calculate_text_similarity(text1, text2):
     """
     使用TF-IDF算法计算两段英文文本的余弦相似度
