@@ -17,7 +17,10 @@ if __name__ == '__main__':
 
     steps_sim = []
 
+    i = 1
     for column in selected_columns:
+        print(i)
+        i = i + 1
         a_steps = eval(column[0])
         h_steps2 = eval(column[1])
         scores = []
